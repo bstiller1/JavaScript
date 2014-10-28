@@ -1,0 +1,20 @@
+<!DOCTYPE>
+<html>
+<head><title>Example 1.20</title>
+<script type="text/javascript">
+function calculateTotal(purchaseAmt, taxRate)
+{
+	tax = purchaseAmt * taxRate;
+	total = purchaseAmt + tax;
+	document.write("Your total is: $" + total);
+}
+</script>
+</head>
+<body>
+<p>Amount purchased is $100.00, Tax rate is 0.065.</p>
+<p>Click Button1 to calculate the total, passing in 100.00, 0.065</p>
+<input type="button" value="Button 1" onclick="calculateTotal(100, 0.065);" />
+<p>Click Button2 to calculate the total, passing in 0.065, 100.00</p>
+<input type="button" value="Button 2" onclick="calculateTotal(0.065, 100);" />
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE>
+<html>
+<head><title>Example 3.13</title>
+<script>
+function pageColor()
+{
+	var color = prompt("Enter a background color: ", "");
+	switch(color)
+	{
+		case "green":
+			document.body.bgColor= "green";
+			break;
+		case "blue":
+			document.body.bgColor= "blue";
+			break;
+		case "yellow":
+			document.body.bgColor= "yellow";
+			break;
+		case "purple":
+			document.body.bgColor= "purple";
+			break;
+		default:
+			document.write("You didn't pick a color.");
+	}
+}
+</script>
+</head>
+<body>
+<h1>Change the page color&trade;&reg;&copy;</h1>
+<p>Select from green, blue, yellow or lavender.</p>
+<p><input type="button" id="color" value="Enter a color" onclick="pageColor();" /></p>
+</body>
+</html>
