@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+<head><title>Example 4.7</title>
+<script>
+function getPlayers()
+{
+	var player = prompt("Enter the name of a player: ", "");
+	var points = prompt("Enter the points this player has: ", "");
+	document.write('<table width="100" border="1">');
+	while (player != "done")
+	{
+		document.write('<tr>');
+		document.write('<td width="50%">' + player + '</td>');
+		document.write('<td width="50%">' + points + '</td>');
+		document.write('</tr>');
+		player = prompt("Enter the name of a player or enter 'done' when finished: ", "");
+		points = prompt("Enter the points this player has or 0 id finished: ", "");
+	}
+	document.write('</table>');
+}
+</script>
+</head>
+<body>
+<h1>&nbsp;</h1>
+<h1>Today's Players</h1>
+<h3>Click to enter players' names</h3>
+<p><input type="button" id="players" value="Enter today's players" onclick="getPlayers();" /></p>
+</body>
+</html>

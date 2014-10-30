@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><title>Example 5.1</title>
+<script>
+function getSum()
+{
+	var score = 0; var sum = 0;
+	while (score != -999)
+	{
+		sum += score; // sum = sum + score;
+		score = parseInt(prompt("Enter a score or enter '-999' when you are finished: ", ""));
+	}
+	document.write("The sum of these scores is: " + sum + ".");
+}
+</script>
+</head>
+<body>
+<h1>Exam 1 Score</h1>
+<h3>Click to enter students' scores</h3>
+<p><input type="button" id="scores" value="Enter the scores" onclick="getSum();" /></p>
+</body>
+</html>
