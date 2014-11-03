@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head><title>Example 9.18</title>
+</head>
+<body>
+<p>Start the timer or stop the timer:</p>
+<button onclick="doSomething()">Start It</button>
+<button onclick="stopIt()">Stop It</button>
+<script>
+var begin;
+function doSomething()
+{
+	begin = setInterval(function(){timeIt()},1000);
+}
+function timeIt()
+{
+	var day = new Date();
+	var time = day.toLocaleTimeString();
+	document.getElementById("result").innerHTML = time;
+}
+function stopIt()
+{
+	clearInterval(begin);
+}
+</script>
+<p><div id="result">&nbsp;</div></p>
+</body></html>
+
