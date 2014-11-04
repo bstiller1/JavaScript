@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/css" href="jackie.css" ?>
+<courses>
+	<meta name="description" value="This is my info the Bead Class" />
+	<salutation>Great News!</salutation>
+	<subject>A new Beading Class!</subject>
+	<course_info>
+		<when>Monday evenings, 7 - 9p,</when>
+		<where>At Jackie's house: 123 Duckpond Lane</where>
+		<cost>Only $8.00 per class or $25 for all 4 classes</cost>
+	</course_info>
+	<contact>Sign up now: send an email to jackie@jewels.net</contact>
+</courses>
+
+

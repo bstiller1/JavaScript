@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head><title>Example 10.3</title>
+<script>
+function insertNode()
+{	var newItem = document.createElement("LI");
+	var nodeText = document.createTextNode("Labrador Retrievers");
+	newItem.appendChild(nodeText);
+	var list = document.getElementById("puppies");
+	list.insertBefore(newItem, list.childNodes[0]);
+}
+</script>
+</head>
+<body>
+<div id="container">
+	<h3>Love those puppies!</h3>
+	<p id="demo">Click the button to insert a puppy into the list.</p>
+	<button onclick="insertNode()">Try it!</button>
+	<ul id="puppies">
+		<li>Poodles</li>
+		<li>Jack Russell Terriers</li>
+	</ul>
+</div>
+</body>
+</html>

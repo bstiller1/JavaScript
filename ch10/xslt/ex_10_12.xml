@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="ex_10_12.xsl"?>
+<jackie_classes>
+	<course_info id="Beading">
+		<when>Mondays 7 - 9pm</when>
+		<where>Room 2</where>
+	</course_info>
+	<course_info id="Silver Bracelets">
+		<when>Tuesdays 7 - 9pm</when>
+		<where>Room 4</where>
+	</course_info>
+	<course_info id="Feathered earrings">
+		<when>Wednesdays 7 - 9pm</when>
+		<where>Room 2</where>
+	</course_info>
+	<course_info id="Ceramic Beads">
+		<when>Thursdays 6 - 10pm</when>
+		<where>Room 2</where>
+	</course_info>
+	<course_info id="Pendants">
+		<when>Saturdays 10am - Noon</when>
+		<where>Room 3</where>
+	</course_info>
+</jackie_classes>
+	
